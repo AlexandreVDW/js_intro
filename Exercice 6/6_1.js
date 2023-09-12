@@ -26,5 +26,5 @@ console.log(`Surface: ${myCircle.surface}`);
 myCircle.move(2, -4);
 
 // Display updated attributes after moving
-console.log("\nUpdated Circle Attributes:");
+console.log("Updated Circle Attributes:");
 console.log(`New Position: (${myCircle.xPos}, ${myCircle.yPos})`);
