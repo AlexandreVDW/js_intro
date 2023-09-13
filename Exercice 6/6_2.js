@@ -36,14 +36,13 @@ class Rectangle {
 
         // Example usage:
         //colide :
-        /*
+        
         let rectangle1 = new Rectangle(0, 0, 4, 4);
         let rectangle2 = new Rectangle(2, 2, 4, 4);
-        */
-        //not colide :
         
+        //not colide :
+        /*
         let rectangle1 = new Rectangle(0, 0, 2, 2); 
         let rectangle2 = new Rectangle(3, 3, 2, 2); 
-        
+        */
         console.log(rectangle1.collides(rectangle2));
-  
